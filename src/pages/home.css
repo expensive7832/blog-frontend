@@ -1,0 +1,16 @@
+.banner{
+    padding: 10rem;
+    text-align: center;
+}
+
+.banner h2{
+    background: linear-gradient(97.1deg, #C41740 4.8%, #EA9C28 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    
+}
+
+.articles{
+    background-color: #f2f4f7;
+}

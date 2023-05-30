@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+nav button{
+    display: none;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav .brand{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+
+@media (max-width: 576px) {
+    nav ul li{
+        display: none;
+    }
+
+    nav button{
+        display: block;
+        margin-left: auto;
+    }
+}

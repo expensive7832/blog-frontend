@@ -1,0 +1,31 @@
+import React, { Component } from 'react'
+
+class Login extends Component {
+
+    componentWillMount(){
+        console.log("this is componentwillmount")
+    }
+
+    constructor(){
+        super()
+        this.state = null
+        console.log(this.state)
+    }
+
+    componentDidMount(){
+        console.log("this is componentDidmount")
+    }
+
+
+
+  render() {
+    console.log("this is render")
+    return (
+      <div>
+       
+      </div>
+    )
+  }
+}
+
+export default Login
